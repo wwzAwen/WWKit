@@ -1,0 +1,6 @@
+framework module ZMTKit {
+  umbrella header "ZMTKit.h"
+
+  export *
+  module * { export * }
+}

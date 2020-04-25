@@ -1,0 +1,981 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		847213EF238E809300AD4F96 /* SDKBuildScript */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 847213F2238E809300AD4F96 /* Build configuration list for PBXAggregateTarget "SDKBuildScript" */;
+			buildPhases = (
+				847213F4238E831000AD4F96 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = SDKBuildScript;
+			productName = SDKBuildScript;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5438BD3F239504E600F90C76 /* UITextView+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5438BD3D239504E600F90C76 /* UITextView+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5438BD40239504E600F90C76 /* UITextView+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5438BD3E239504E600F90C76 /* UITextView+ZMT.m */; };
+		543D868123964B6700EC111E /* NSError+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 543D867F23964B6700EC111E /* NSError+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		543D868223964B6700EC111E /* NSError+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D868023964B6700EC111E /* NSError+ZMT.m */; };
+		544082BC2394EB4A00320C41 /* UIViewController+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 544082BA2394EB4A00320C41 /* UIViewController+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544082BD2394EB4A00320C41 /* UIViewController+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 544082BB2394EB4A00320C41 /* UIViewController+ZMT.m */; };
+		544B216823950AB90057A784 /* NSString+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 544B216623950AB90057A784 /* NSString+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544B216923950AB90057A784 /* NSString+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B216723950AB90057A784 /* NSString+ZMT.m */; };
+		544B21762395306A0057A784 /* MBProgressHUD+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 544B21742395306A0057A784 /* MBProgressHUD+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544B21772395306A0057A784 /* MBProgressHUD+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B21752395306A0057A784 /* MBProgressHUD+ZMT.m */; };
+		544B217B2395311D0057A784 /* UIView+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 544B21792395311D0057A784 /* UIView+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544B217C2395311D0057A784 /* UIView+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B217A2395311D0057A784 /* UIView+ZMT.m */; };
+		544B2180239531D60057A784 /* UIWindow+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 544B217E239531D60057A784 /* UIWindow+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		544B2181239531D60057A784 /* UIWindow+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B217F239531D60057A784 /* UIWindow+ZMT.m */; };
+		544B2185239536090057A784 /* Pods_ZMTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544B2184239536090057A784 /* Pods_ZMTKit.framework */; };
+		54BC1F6523960FF3003397F2 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BC1F6123960FF3003397F2 /* SAMKeychainQuery.m */; };
+		54BC1F6623960FF3003397F2 /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BC1F6223960FF3003397F2 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BC1F6723960FF3003397F2 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BC1F6323960FF3003397F2 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54BC1F6823960FF3003397F2 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 54BC1F6423960FF3003397F2 /* SAMKeychain.m */; };
+		840752F2239796930070A3C2 /* NSObject+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 840752F0239796930070A3C2 /* NSObject+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840752F3239796930070A3C2 /* NSObject+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 840752F1239796930070A3C2 /* NSObject+ZMT.m */; };
+		840752F6239797010070A3C2 /* NSDictionary+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 840752F4239797010070A3C2 /* NSDictionary+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840752F7239797010070A3C2 /* NSDictionary+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 840752F5239797010070A3C2 /* NSDictionary+ZMT.m */; };
+		840752FA239798770070A3C2 /* NSArray+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 840752F8239798770070A3C2 /* NSArray+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840752FB239798770070A3C2 /* NSArray+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 840752F9239798770070A3C2 /* NSArray+ZMT.m */; };
+		8407530323979BE50070A3C2 /* PrintBeautifulLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407530223979BE50070A3C2 /* PrintBeautifulLog.m */; };
+		840753072398DFB60070A3C2 /* UILabel+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 840753052398DFB60070A3C2 /* UILabel+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		840753082398DFB60070A3C2 /* UILabel+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 840753062398DFB60070A3C2 /* UILabel+ZMT.m */; };
+		84075314239A06170070A3C2 /* UIImage+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 84075312239A06170070A3C2 /* UIImage+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84075315239A06170070A3C2 /* UIImage+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 84075313239A06170070A3C2 /* UIImage+ZMT.m */; };
+		84075319239A077D0070A3C2 /* NSDate+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 84075317239A077D0070A3C2 /* NSDate+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8407531A239A077D0070A3C2 /* NSDate+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 84075318239A077D0070A3C2 /* NSDate+ZMT.m */; };
+		847213FE238F74AB00AD4F96 /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 847213FA238F74AB00AD4F96 /* WRNavigationBar.m */; };
+		847213FF238F74AB00AD4F96 /* WRCustomNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 847213FB238F74AB00AD4F96 /* WRCustomNavigationBar.h */; };
+		84721400238F74AB00AD4F96 /* WRNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 847213FC238F74AB00AD4F96 /* WRNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84721401238F74AB00AD4F96 /* WRCustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 847213FD238F74AB00AD4F96 /* WRCustomNavigationBar.m */; };
+		84721405238F764400AD4F96 /* CALayer+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 84721403238F764400AD4F96 /* CALayer+ZMT.m */; };
+		84721406238F764400AD4F96 /* CALayer+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 84721404238F764400AD4F96 /* CALayer+ZMT.h */; };
+		84721410238F9D4600AD4F96 /* ZMTTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8472140E238F9D4600AD4F96 /* ZMTTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84721411238F9D4600AD4F96 /* ZMTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8472140F238F9D4600AD4F96 /* ZMTTools.m */; };
+		84721415238FA37100AD4F96 /* ZMTRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 84721413238FA37100AD4F96 /* ZMTRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84721416238FA37100AD4F96 /* ZMTRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84721414238FA37100AD4F96 /* ZMTRequest.m */; };
+		849C029A2395188D005D704F /* ZMTKitAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 849C029923951888005D704F /* ZMTKitAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849C029E23951A32005D704F /* UIColor+ZMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 849C029C23951A32005D704F /* UIColor+ZMT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		849C029F23951A32005D704F /* UIColor+ZMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C029D23951A32005D704F /* UIColor+ZMT.m */; };
+		84A1B465239B928800AD12F1 /* ZMTNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A1B463239B928800AD12F1 /* ZMTNetworkReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84A1B466239B928800AD12F1 /* ZMTNetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A1B464239B928800AD12F1 /* ZMTNetworkReachability.m */; };
+		84E16B65238E21C700086622 /* ZMTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E16B5B238E21C700086622 /* ZMTKit.framework */; };
+		84E16B6A238E21C700086622 /* ZMTKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16B69238E21C700086622 /* ZMTKitTests.m */; };
+		84E16B6C238E21C700086622 /* ZMTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E16B5E238E21C700086622 /* ZMTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84E16B86238E731500086622 /* CommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E16B85238E703300086622 /* CommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E16B66238E21C700086622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E16B52238E21C700086622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E16B5A238E21C700086622;
+			remoteInfo = ZMTKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E36C8B6F189C5C4E94FF14A /* Pods-ZMTKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKit.debug.xcconfig"; path = "Target Support Files/Pods-ZMTKit/Pods-ZMTKit.debug.xcconfig"; sourceTree = "<group>"; };
+		22C64254E708F74E485E8F4D /* Pods-ZMTKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKit.release.xcconfig"; path = "Target Support Files/Pods-ZMTKit/Pods-ZMTKit.release.xcconfig"; sourceTree = "<group>"; };
+		5438BD3D239504E600F90C76 /* UITextView+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZMT.h"; sourceTree = "<group>"; };
+		5438BD3E239504E600F90C76 /* UITextView+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ZMT.m"; sourceTree = "<group>"; };
+		543D867F23964B6700EC111E /* NSError+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+ZMT.h"; sourceTree = "<group>"; };
+		543D868023964B6700EC111E /* NSError+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+ZMT.m"; sourceTree = "<group>"; };
+		544082BA2394EB4A00320C41 /* UIViewController+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZMT.h"; sourceTree = "<group>"; };
+		544082BB2394EB4A00320C41 /* UIViewController+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZMT.m"; sourceTree = "<group>"; };
+		544B216623950AB90057A784 /* NSString+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZMT.h"; sourceTree = "<group>"; };
+		544B216723950AB90057A784 /* NSString+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZMT.m"; sourceTree = "<group>"; };
+		544B21742395306A0057A784 /* MBProgressHUD+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ZMT.h"; sourceTree = "<group>"; };
+		544B21752395306A0057A784 /* MBProgressHUD+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ZMT.m"; sourceTree = "<group>"; };
+		544B21792395311D0057A784 /* UIView+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZMT.h"; sourceTree = "<group>"; };
+		544B217A2395311D0057A784 /* UIView+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZMT.m"; sourceTree = "<group>"; };
+		544B217E239531D60057A784 /* UIWindow+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZMT.h"; sourceTree = "<group>"; };
+		544B217F239531D60057A784 /* UIWindow+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZMT.m"; sourceTree = "<group>"; };
+		544B2184239536090057A784 /* Pods_ZMTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ZMTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54BC1F6123960FF3003397F2 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+		54BC1F6223960FF3003397F2 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		54BC1F6323960FF3003397F2 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		54BC1F6423960FF3003397F2 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		840752F0239796930070A3C2 /* NSObject+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZMT.h"; sourceTree = "<group>"; };
+		840752F1239796930070A3C2 /* NSObject+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZMT.m"; sourceTree = "<group>"; };
+		840752F4239797010070A3C2 /* NSDictionary+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZMT.h"; sourceTree = "<group>"; };
+		840752F5239797010070A3C2 /* NSDictionary+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZMT.m"; sourceTree = "<group>"; };
+		840752F8239798770070A3C2 /* NSArray+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZMT.h"; sourceTree = "<group>"; };
+		840752F9239798770070A3C2 /* NSArray+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZMT.m"; sourceTree = "<group>"; };
+		8407530223979BE50070A3C2 /* PrintBeautifulLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintBeautifulLog.m; sourceTree = "<group>"; };
+		840753052398DFB60070A3C2 /* UILabel+ZMT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZMT.h"; sourceTree = "<group>"; };
+		840753062398DFB60070A3C2 /* UILabel+ZMT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZMT.m"; sourceTree = "<group>"; };
+		84075312239A06170070A3C2 /* UIImage+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZMT.h"; sourceTree = "<group>"; };
+		84075313239A06170070A3C2 /* UIImage+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZMT.m"; sourceTree = "<group>"; };
+		84075317239A077D0070A3C2 /* NSDate+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZMT.h"; sourceTree = "<group>"; };
+		84075318239A077D0070A3C2 /* NSDate+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZMT.m"; sourceTree = "<group>"; };
+		847213FA238F74AB00AD4F96 /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		847213FB238F74AB00AD4F96 /* WRCustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRCustomNavigationBar.h; sourceTree = "<group>"; };
+		847213FC238F74AB00AD4F96 /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		847213FD238F74AB00AD4F96 /* WRCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRCustomNavigationBar.m; sourceTree = "<group>"; };
+		84721403238F764400AD4F96 /* CALayer+ZMT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+ZMT.m"; sourceTree = "<group>"; };
+		84721404238F764400AD4F96 /* CALayer+ZMT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+ZMT.h"; sourceTree = "<group>"; };
+		8472140C238F77CF00AD4F96 /* ZMTKit_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTKit_PrefixHeader.pch; sourceTree = "<group>"; };
+		8472140E238F9D4600AD4F96 /* ZMTTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTTools.h; sourceTree = "<group>"; };
+		8472140F238F9D4600AD4F96 /* ZMTTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTTools.m; sourceTree = "<group>"; };
+		84721413238FA37100AD4F96 /* ZMTRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTRequest.h; sourceTree = "<group>"; };
+		84721414238FA37100AD4F96 /* ZMTRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTRequest.m; sourceTree = "<group>"; };
+		849C029923951888005D704F /* ZMTKitAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTKitAdditions.h; sourceTree = "<group>"; };
+		849C029C23951A32005D704F /* UIColor+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZMT.h"; sourceTree = "<group>"; };
+		849C029D23951A32005D704F /* UIColor+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZMT.m"; sourceTree = "<group>"; };
+		84A1B463239B928800AD12F1 /* ZMTNetworkReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTNetworkReachability.h; sourceTree = "<group>"; };
+		84A1B464239B928800AD12F1 /* ZMTNetworkReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTNetworkReachability.m; sourceTree = "<group>"; };
+		84E16B5B238E21C700086622 /* ZMTKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZMTKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E16B5E238E21C700086622 /* ZMTKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZMTKit.h; sourceTree = "<group>"; };
+		84E16B5F238E21C700086622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E16B64238E21C700086622 /* ZMTKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZMTKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E16B69238E21C700086622 /* ZMTKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZMTKitTests.m; sourceTree = "<group>"; };
+		84E16B6B238E21C700086622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E16B85238E703300086622 /* CommonMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacros.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E16B58238E21C700086622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				544B2185239536090057A784 /* Pods_ZMTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E16B61238E21C700086622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E16B65238E21C700086622 /* ZMTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07760930A8013456811792EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				544B2184239536090057A784 /* Pods_ZMTKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5438BD3C239504CC00F90C76 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				5438BD3D239504E600F90C76 /* UITextView+ZMT.h */,
+				5438BD3E239504E600F90C76 /* UITextView+ZMT.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		543D867E23964B5400EC111E /* NSError */ = {
+			isa = PBXGroup;
+			children = (
+				543D867F23964B6700EC111E /* NSError+ZMT.h */,
+				543D868023964B6700EC111E /* NSError+ZMT.m */,
+			);
+			path = NSError;
+			sourceTree = "<group>";
+		};
+		544082BE2394EB5000320C41 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				544082BA2394EB4A00320C41 /* UIViewController+ZMT.h */,
+				544082BB2394EB4A00320C41 /* UIViewController+ZMT.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		544B216523950A8A0057A784 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				544B216623950AB90057A784 /* NSString+ZMT.h */,
+				544B216723950AB90057A784 /* NSString+ZMT.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		544B21782395310C0057A784 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				544B21792395311D0057A784 /* UIView+ZMT.h */,
+				544B217A2395311D0057A784 /* UIView+ZMT.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		544B217D239531C80057A784 /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				544B217E239531D60057A784 /* UIWindow+ZMT.h */,
+				544B217F239531D60057A784 /* UIWindow+ZMT.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		54AEA8572396002500F76317 /* Hud */ = {
+			isa = PBXGroup;
+			children = (
+				544B21742395306A0057A784 /* MBProgressHUD+ZMT.h */,
+				544B21752395306A0057A784 /* MBProgressHUD+ZMT.m */,
+			);
+			path = Hud;
+			sourceTree = "<group>";
+		};
+		54BC1F6023960FF3003397F2 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				54BC1F6223960FF3003397F2 /* SAMKeychain.h */,
+				54BC1F6423960FF3003397F2 /* SAMKeychain.m */,
+				54BC1F6323960FF3003397F2 /* SAMKeychainQuery.h */,
+				54BC1F6123960FF3003397F2 /* SAMKeychainQuery.m */,
+			);
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		840752E7239792720070A3C2 /* PrintBeautifulLog */ = {
+			isa = PBXGroup;
+			children = (
+				8407530223979BE50070A3C2 /* PrintBeautifulLog.m */,
+			);
+			path = PrintBeautifulLog;
+			sourceTree = "<group>";
+		};
+		840752ED239796350070A3C2 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				840752F4239797010070A3C2 /* NSDictionary+ZMT.h */,
+				840752F5239797010070A3C2 /* NSDictionary+ZMT.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		840752EE239796430070A3C2 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				840752F8239798770070A3C2 /* NSArray+ZMT.h */,
+				840752F9239798770070A3C2 /* NSArray+ZMT.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		840752EF239796620070A3C2 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				840752F0239796930070A3C2 /* NSObject+ZMT.h */,
+				840752F1239796930070A3C2 /* NSObject+ZMT.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		840753042398DFB60070A3C2 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				840753052398DFB60070A3C2 /* UILabel+ZMT.h */,
+				840753062398DFB60070A3C2 /* UILabel+ZMT.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		84075311239A06000070A3C2 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				84075312239A06170070A3C2 /* UIImage+ZMT.h */,
+				84075313239A06170070A3C2 /* UIImage+ZMT.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		84075316239A07610070A3C2 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				84075317239A077D0070A3C2 /* NSDate+ZMT.h */,
+				84075318239A077D0070A3C2 /* NSDate+ZMT.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		847213F9238F74AB00AD4F96 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				847213FC238F74AB00AD4F96 /* WRNavigationBar.h */,
+				847213FA238F74AB00AD4F96 /* WRNavigationBar.m */,
+				847213FB238F74AB00AD4F96 /* WRCustomNavigationBar.h */,
+				847213FD238F74AB00AD4F96 /* WRCustomNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		84721402238F764400AD4F96 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				84721404238F764400AD4F96 /* CALayer+ZMT.h */,
+				84721403238F764400AD4F96 /* CALayer+ZMT.m */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		8472140D238F9D3100AD4F96 /* ZMTTools */ = {
+			isa = PBXGroup;
+			children = (
+				8472140E238F9D4600AD4F96 /* ZMTTools.h */,
+				8472140F238F9D4600AD4F96 /* ZMTTools.m */,
+			);
+			path = ZMTTools;
+			sourceTree = "<group>";
+		};
+		84721412238FA35800AD4F96 /* ZMTRequest */ = {
+			isa = PBXGroup;
+			children = (
+				84721413238FA37100AD4F96 /* ZMTRequest.h */,
+				84721414238FA37100AD4F96 /* ZMTRequest.m */,
+			);
+			path = ZMTRequest;
+			sourceTree = "<group>";
+		};
+		849C029B23951A24005D704F /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				849C029C23951A32005D704F /* UIColor+ZMT.h */,
+				849C029D23951A32005D704F /* UIColor+ZMT.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		84A1B462239B926D00AD12F1 /* NetworkReachability */ = {
+			isa = PBXGroup;
+			children = (
+				84A1B463239B928800AD12F1 /* ZMTNetworkReachability.h */,
+				84A1B464239B928800AD12F1 /* ZMTNetworkReachability.m */,
+			);
+			path = NetworkReachability;
+			sourceTree = "<group>";
+		};
+		84E16B51238E21C700086622 = {
+			isa = PBXGroup;
+			children = (
+				84E16B5D238E21C700086622 /* ZMTKit */,
+				84E16B68238E21C700086622 /* ZMTKitTests */,
+				84E16B5C238E21C700086622 /* Products */,
+				889A417101E1CC988948C8AD /* Pods */,
+				07760930A8013456811792EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E16B5C238E21C700086622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E16B5B238E21C700086622 /* ZMTKit.framework */,
+				84E16B64238E21C700086622 /* ZMTKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E16B5D238E21C700086622 /* ZMTKit */ = {
+			isa = PBXGroup;
+			children = (
+				84E16B5E238E21C700086622 /* ZMTKit.h */,
+				8472140C238F77CF00AD4F96 /* ZMTKit_PrefixHeader.pch */,
+				84E16B5F238E21C700086622 /* Info.plist */,
+				84E16B82238E55E400086622 /* Macro */,
+				84E16B83238E57E000086622 /* Network */,
+				84E16B7F238E555400086622 /* Categories */,
+				84E16B7E238E554900086622 /* General */,
+				84E16B81238E557B00086622 /* Helpers */,
+			);
+			path = ZMTKit;
+			sourceTree = "<group>";
+		};
+		84E16B68238E21C700086622 /* ZMTKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E16B69238E21C700086622 /* ZMTKitTests.m */,
+				84E16B6B238E21C700086622 /* Info.plist */,
+			);
+			path = ZMTKitTests;
+			sourceTree = "<group>";
+		};
+		84E16B7E238E554900086622 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				840752E7239792720070A3C2 /* PrintBeautifulLog */,
+				84E16B80238E556200086622 /* Common */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		84E16B7F238E555400086622 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				849C029923951888005D704F /* ZMTKitAdditions.h */,
+				84075316239A07610070A3C2 /* NSDate */,
+				84075311239A06000070A3C2 /* UIImage */,
+				840753042398DFB60070A3C2 /* UILabel */,
+				840752EF239796620070A3C2 /* NSObject */,
+				840752EE239796430070A3C2 /* NSArray */,
+				840752ED239796350070A3C2 /* NSDictionary */,
+				543D867E23964B5400EC111E /* NSError */,
+				544B217D239531C80057A784 /* UIWindow */,
+				544B21782395310C0057A784 /* UIView */,
+				849C029B23951A24005D704F /* UIColor */,
+				544B216523950A8A0057A784 /* NSString */,
+				5438BD3C239504CC00F90C76 /* UITextView */,
+				84721402238F764400AD4F96 /* CALayer */,
+				544082BE2394EB5000320C41 /* UIViewController */,
+				54AEA8572396002500F76317 /* Hud */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		84E16B80238E556200086622 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				54BC1F6023960FF3003397F2 /* KeyChain */,
+				8472140D238F9D3100AD4F96 /* ZMTTools */,
+				847213F9238F74AB00AD4F96 /* WRNavigationBar */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		84E16B81238E557B00086622 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		84E16B82238E55E400086622 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				84E16B85238E703300086622 /* CommonMacros.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		84E16B83238E57E000086622 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				84A1B462239B926D00AD12F1 /* NetworkReachability */,
+				84721412238FA35800AD4F96 /* ZMTRequest */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		889A417101E1CC988948C8AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E36C8B6F189C5C4E94FF14A /* Pods-ZMTKit.debug.xcconfig */,
+				22C64254E708F74E485E8F4D /* Pods-ZMTKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84E16B56238E21C700086622 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54BC1F6623960FF3003397F2 /* SAMKeychain.h in Headers */,
+				544B2180239531D60057A784 /* UIWindow+ZMT.h in Headers */,
+				840752F2239796930070A3C2 /* NSObject+ZMT.h in Headers */,
+				849C029E23951A32005D704F /* UIColor+ZMT.h in Headers */,
+				84E16B86238E731500086622 /* CommonMacros.h in Headers */,
+				840753072398DFB60070A3C2 /* UILabel+ZMT.h in Headers */,
+				544B217B2395311D0057A784 /* UIView+ZMT.h in Headers */,
+				84A1B465239B928800AD12F1 /* ZMTNetworkReachability.h in Headers */,
+				84075314239A06170070A3C2 /* UIImage+ZMT.h in Headers */,
+				544082BC2394EB4A00320C41 /* UIViewController+ZMT.h in Headers */,
+				840752F6239797010070A3C2 /* NSDictionary+ZMT.h in Headers */,
+				84721400238F74AB00AD4F96 /* WRNavigationBar.h in Headers */,
+				84721415238FA37100AD4F96 /* ZMTRequest.h in Headers */,
+				5438BD3F239504E600F90C76 /* UITextView+ZMT.h in Headers */,
+				543D868123964B6700EC111E /* NSError+ZMT.h in Headers */,
+				849C029A2395188D005D704F /* ZMTKitAdditions.h in Headers */,
+				84721406238F764400AD4F96 /* CALayer+ZMT.h in Headers */,
+				84721410238F9D4600AD4F96 /* ZMTTools.h in Headers */,
+				544B21762395306A0057A784 /* MBProgressHUD+ZMT.h in Headers */,
+				54BC1F6723960FF3003397F2 /* SAMKeychainQuery.h in Headers */,
+				544B216823950AB90057A784 /* NSString+ZMT.h in Headers */,
+				84E16B6C238E21C700086622 /* ZMTKit.h in Headers */,
+				840752FA239798770070A3C2 /* NSArray+ZMT.h in Headers */,
+				847213FF238F74AB00AD4F96 /* WRCustomNavigationBar.h in Headers */,
+				84075319239A077D0070A3C2 /* NSDate+ZMT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		84E16B5A238E21C700086622 /* ZMTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E16B6F238E21C700086622 /* Build configuration list for PBXNativeTarget "ZMTKit" */;
+			buildPhases = (
+				1390A8B60752046D29A99680 /* [CP] Check Pods Manifest.lock */,
+				84E16B56238E21C700086622 /* Headers */,
+				84E16B57238E21C700086622 /* Sources */,
+				84E16B58238E21C700086622 /* Frameworks */,
+				84E16B59238E21C700086622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZMTKit;
+			productName = ZMTKit;
+			productReference = 84E16B5B238E21C700086622 /* ZMTKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84E16B63238E21C700086622 /* ZMTKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E16B72238E21C700086622 /* Build configuration list for PBXNativeTarget "ZMTKitTests" */;
+			buildPhases = (
+				84E16B60238E21C700086622 /* Sources */,
+				84E16B61238E21C700086622 /* Frameworks */,
+				84E16B62238E21C700086622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E16B67238E21C700086622 /* PBXTargetDependency */,
+			);
+			name = ZMTKitTests;
+			productName = ZMTKitTests;
+			productReference = 84E16B64238E21C700086622 /* ZMTKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E16B52238E21C700086622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = ZMT;
+				TargetAttributes = {
+					847213EF238E809300AD4F96 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					84E16B5A238E21C700086622 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					84E16B63238E21C700086622 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 84E16B55238E21C700086622 /* Build configuration list for PBXProject "ZMTKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E16B51238E21C700086622;
+			productRefGroup = 84E16B5C238E21C700086622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E16B5A238E21C700086622 /* ZMTKit */,
+				84E16B63238E21C700086622 /* ZMTKitTests */,
+				847213EF238E809300AD4F96 /* SDKBuildScript */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E16B59238E21C700086622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E16B62238E21C700086622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1390A8B60752046D29A99680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMTKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847213F4238E831000AD4F96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E16B57238E21C700086622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840752F3239796930070A3C2 /* NSObject+ZMT.m in Sources */,
+				84721411238F9D4600AD4F96 /* ZMTTools.m in Sources */,
+				544B21772395306A0057A784 /* MBProgressHUD+ZMT.m in Sources */,
+				84721405238F764400AD4F96 /* CALayer+ZMT.m in Sources */,
+				544B2181239531D60057A784 /* UIWindow+ZMT.m in Sources */,
+				840752FB239798770070A3C2 /* NSArray+ZMT.m in Sources */,
+				847213FE238F74AB00AD4F96 /* WRNavigationBar.m in Sources */,
+				84721416238FA37100AD4F96 /* ZMTRequest.m in Sources */,
+				840753082398DFB60070A3C2 /* UILabel+ZMT.m in Sources */,
+				84075315239A06170070A3C2 /* UIImage+ZMT.m in Sources */,
+				840752F7239797010070A3C2 /* NSDictionary+ZMT.m in Sources */,
+				54BC1F6823960FF3003397F2 /* SAMKeychain.m in Sources */,
+				544B217C2395311D0057A784 /* UIView+ZMT.m in Sources */,
+				543D868223964B6700EC111E /* NSError+ZMT.m in Sources */,
+				8407531A239A077D0070A3C2 /* NSDate+ZMT.m in Sources */,
+				8407530323979BE50070A3C2 /* PrintBeautifulLog.m in Sources */,
+				84A1B466239B928800AD12F1 /* ZMTNetworkReachability.m in Sources */,
+				544082BD2394EB4A00320C41 /* UIViewController+ZMT.m in Sources */,
+				84721401238F74AB00AD4F96 /* WRCustomNavigationBar.m in Sources */,
+				849C029F23951A32005D704F /* UIColor+ZMT.m in Sources */,
+				544B216923950AB90057A784 /* NSString+ZMT.m in Sources */,
+				54BC1F6523960FF3003397F2 /* SAMKeychainQuery.m in Sources */,
+				5438BD40239504E600F90C76 /* UITextView+ZMT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E16B60238E21C700086622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E16B6A238E21C700086622 /* ZMTKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E16B67238E21C700086622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E16B5A238E21C700086622 /* ZMTKit */;
+			targetProxy = 84E16B66238E21C700086622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		847213F0238E809300AD4F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		847213F1238E809300AD4F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84E16B6D238E21C700086622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E16B6E238E21C700086622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84E16B70238E21C700086622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E36C8B6F189C5C4E94FF14A /* Pods-ZMTKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMTKit/General/Common",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZMTKit/ZMTKit_PrefixHeader.pch";
+				INFOPLIST_FILE = ZMTKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = zmt.ZMTKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84E16B71238E21C700086622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C64254E708F74E485E8F4D /* Pods-ZMTKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZMTKit/General/Common",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZMTKit/ZMTKit_PrefixHeader.pch";
+				INFOPLIST_FILE = ZMTKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = zmt.ZMTKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84E16B73238E21C700086622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMTKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zmt.ZMTKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E16B74238E21C700086622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZMTKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zmt.ZMTKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847213F2238E809300AD4F96 /* Build configuration list for PBXAggregateTarget "SDKBuildScript" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847213F0238E809300AD4F96 /* Debug */,
+				847213F1238E809300AD4F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E16B55238E21C700086622 /* Build configuration list for PBXProject "ZMTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E16B6D238E21C700086622 /* Debug */,
+				84E16B6E238E21C700086622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E16B6F238E21C700086622 /* Build configuration list for PBXNativeTarget "ZMTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E16B70238E21C700086622 /* Debug */,
+				84E16B71238E21C700086622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E16B72238E21C700086622 /* Build configuration list for PBXNativeTarget "ZMTKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E16B73238E21C700086622 /* Debug */,
+				84E16B74238E21C700086622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E16B52238E21C700086622 /* Project object */;
+}

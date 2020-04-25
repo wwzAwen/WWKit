@@ -1,0 +1,16 @@
+//
+//  ZMTKit_PrefixHeader.pch
+//  ZMTKit
+//
+//  Created by 王冠华 on 2019/11/28.
+//  Copyright © 2019 ZMT. All rights reserved.
+//
+
+#ifndef ZMTKit_PrefixHeader_pch
+#define ZMTKit_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <ZMTKit.h>
+
+#endif /* ZMTKit_PrefixHeader_pch */
