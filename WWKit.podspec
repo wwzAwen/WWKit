@@ -20,9 +20,9 @@ Pod::Spec.new do |spec|
   spec.description  = "简单易用的APP架构"
   spec.homepage     = "http://EXAMPLE/WWKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   spec.author       = { "王文照" => "287312333@qq.com" }
-  spec.source       = { :git => "http://EXAMPLE/WWKit.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/wwzAwen/WWKit.git", :tag => "#{spec.version}" }
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
