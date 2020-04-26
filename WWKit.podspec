@@ -14,16 +14,21 @@ Pod::Spec.new do |spec|
   spec.description  = "简单易用的APP架构"
   spec.homepage     = "https://github.com/wwzAwen/WWKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  spec.license      = "MIT"
-  spec.author       = { "王文照" => "287312333@qq.com" }
+  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.author       = {
+  "awen" => "287312333@qq.com",
+  "wardw"=> "ghwangd@163.com"
+}
   spec.source       = { :git => "https://github.com/wwzAwen/WWKit.git", :tag => "#{spec.version}" }
   spec.source_files  = "ZMTKit/Categories","ZMTKit/General","ZMTKit/Macro","ZMTKit/Network",
   "ZMTKit/ZMTKit.{h,m}"
   spec.ios.deployment_target =  '9.0'
   spec.ios.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.WWKit' }
   spec.requires_arc = true
+  spec.libraries = "c++","c"
   
-  spec.dependency 'AFNetworking'
+  spec.dependency 'AFNetworking', '~> 3.2.1'
   spec.dependency 'MJRefresh'
   spec.dependency 'MJExtension'
   spec.dependency 'Masonry'
