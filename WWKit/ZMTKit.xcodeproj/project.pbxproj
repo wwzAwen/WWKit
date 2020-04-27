@@ -72,6 +72,7 @@
 		84E16B6A238E21C700086622 /* ZMTKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E16B69238E21C700086622 /* ZMTKitTests.m */; };
 		84E16B6C238E21C700086622 /* ZMTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E16B5E238E21C700086622 /* ZMTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84E16B86238E731500086622 /* CommonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 84E16B85238E703300086622 /* CommonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D289B3489F813951AC913D2E /* Pods_ZMTKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58AB4E3F07B077638F8486DA /* Pods_ZMTKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004967FF50C3543ECA75BBC7 /* Pods-ZMTKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKitTests.release.xcconfig"; path = "Target Support Files/Pods-ZMTKitTests/Pods-ZMTKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		05EC3ED7E0BA15F6592D9FCD /* Pods-ZMTKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKitTests.debug.xcconfig"; path = "Target Support Files/Pods-ZMTKitTests/Pods-ZMTKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0E36C8B6F189C5C4E94FF14A /* Pods-ZMTKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKit.debug.xcconfig"; path = "Target Support Files/Pods-ZMTKit/Pods-ZMTKit.debug.xcconfig"; sourceTree = "<group>"; };
 		22C64254E708F74E485E8F4D /* Pods-ZMTKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZMTKit.release.xcconfig"; path = "Target Support Files/Pods-ZMTKit/Pods-ZMTKit.release.xcconfig"; sourceTree = "<group>"; };
 		5438BD3D239504E600F90C76 /* UITextView+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+ZMT.h"; sourceTree = "<group>"; };
@@ -106,6 +109,7 @@
 		54BC1F6223960FF3003397F2 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
 		54BC1F6323960FF3003397F2 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
 		54BC1F6423960FF3003397F2 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		58AB4E3F07B077638F8486DA /* Pods_ZMTKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZMTKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		840752F0239796930070A3C2 /* NSObject+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZMT.h"; sourceTree = "<group>"; };
 		840752F1239796930070A3C2 /* NSObject+ZMT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZMT.m"; sourceTree = "<group>"; };
 		840752F4239797010070A3C2 /* NSDictionary+ZMT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZMT.h"; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E16B65238E21C700086622 /* ZMTKit.framework in Frameworks */,
+				D289B3489F813951AC913D2E /* Pods_ZMTKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				544B2184239536090057A784 /* Pods_ZMTKit.framework */,
+				58AB4E3F07B077638F8486DA /* Pods_ZMTKitTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -479,6 +485,8 @@
 			children = (
 				0E36C8B6F189C5C4E94FF14A /* Pods-ZMTKit.debug.xcconfig */,
 				22C64254E708F74E485E8F4D /* Pods-ZMTKit.release.xcconfig */,
+				05EC3ED7E0BA15F6592D9FCD /* Pods-ZMTKitTests.debug.xcconfig */,
+				004967FF50C3543ECA75BBC7 /* Pods-ZMTKitTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -545,6 +553,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E16B72238E21C700086622 /* Build configuration list for PBXNativeTarget "ZMTKitTests" */;
 			buildPhases = (
+				4B5F8D8DCC7B909C2B777358 /* [CP] Check Pods Manifest.lock */,
 				84E16B60238E21C700086622 /* Sources */,
 				84E16B61238E21C700086622 /* Frameworks */,
 				84E16B62238E21C700086622 /* Resources */,
@@ -633,6 +642,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZMTKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5F8D8DCC7B909C2B777358 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZMTKitTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -906,6 +937,7 @@
 		};
 		84E16B73238E21C700086622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EC3ED7E0BA15F6592D9FCD /* Pods-ZMTKitTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZMTKitTests/Info.plist;
@@ -922,6 +954,7 @@
 		};
 		84E16B74238E21C700086622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004967FF50C3543ECA75BBC7 /* Pods-ZMTKitTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZMTKitTests/Info.plist;
