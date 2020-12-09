@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (ZMT)
 
++ (UIImage *)imageWithColor:(UIColor *)color;
 /// 二维码
 + (UIImage *)createQRImageWithQRStr:(NSString *)str withSize:(CGFloat) size;
 

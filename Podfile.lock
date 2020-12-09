@@ -16,8 +16,22 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJExtension (3.2.1)
-  - MJRefresh (3.3.1)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - WWKit (1.0.0):
+    - AFNetworking (~> 3.2.1)
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+  - "XLPhotoBrowser+CoderXL (1.2.0)":
+    - SDWebImage
+  - ZZFLEX/DataBindKit (1.1.1)
+  - ZZFLEX/ZZFLEX (1.1.1):
+    - Masonry
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
@@ -25,22 +39,49 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJExtension
   - MJRefresh
+  - WWKit (from `WWKit/`)
+  - "XLPhotoBrowser+CoderXL (from `https://github.com/tbl00c/XLPhotoBrowser.git`, tag `1.2.1`)"
+  - "ZZFLEX/DataBindKit (from `git@gitee.com:wwzAwen/ZZFLEX.git`)"
+  - "ZZFLEX/ZZFLEX (from `git@gitee.com:wwzAwen/ZZFLEX.git`)"
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  WWKit:
+    :path: WWKit/
+  "XLPhotoBrowser+CoderXL":
+    :git: https://github.com/tbl00c/XLPhotoBrowser.git
+    :tag: 1.2.1
+  ZZFLEX:
+    :git: "git@gitee.com:wwzAwen/ZZFLEX.git"
+
+CHECKOUT OPTIONS:
+  "XLPhotoBrowser+CoderXL":
+    :git: https://github.com/tbl00c/XLPhotoBrowser.git
+    :tag: 1.2.1
+  ZZFLEX:
+    :commit: 8efadee3c5e1a0429744e654afe706218d032799
+    :git: "git@gitee.com:wwzAwen/ZZFLEX.git"
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJExtension: 635f2c663dcb1bf76fa4b715b2570a5710aec545
-  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  WWKit: 47bc9b04b95f8b1c3005c1b5612e747e53d6c012
+  "XLPhotoBrowser+CoderXL": 48f73020942c73ba3c3f44c46f7f2add86a98d00
+  ZZFLEX: f93c68dd882568748978c6b48bbb98c9c1310c5b
 
-PODFILE CHECKSUM: e01bc27b9999d06eacbb74885b4fb00664e45a73
+PODFILE CHECKSUM: e88ad91ab8465761f36754c71d74ff009352c31f
 
-COCOAPODS: 1.7.0.beta.3
+COCOAPODS: 1.9.3

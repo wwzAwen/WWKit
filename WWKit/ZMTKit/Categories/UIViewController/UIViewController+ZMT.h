@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIBarButtonItem+ZMT.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIViewController (ZMT)
@@ -43,6 +43,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 结束编辑
 - (void)endEditing;
+
+/// 添加消失BarButton（左侧)
+- (UIBarButtonItem *)addDismissBarButtonWithTitle:(NSString *)title;
+/// 左侧文字BarButton
+- (UIBarButtonItem *)addLeftBarButtonWithTitle:(NSString *)title actionBlick:(WWBarButtonActionBlock)actionBlock;
+/// 左侧图片BarButton
+- (UIBarButtonItem *)addLeftBarButtonWithImage:(UIImage *)image actionBlick:(WWBarButtonActionBlock)actionBlock;
+/// 右侧文字BarButton
+- (UIBarButtonItem *)addRightBarButtonWithTitle:(NSString *)title actionBlick:(WWBarButtonActionBlock)actionBlock;
+/// 右侧图片BarButton
+- (UIBarButtonItem *)addRightBarButtonWithImage:(UIImage *)image actionBlick:(WWBarButtonActionBlock)actionBlock;
+
 @end
 
 NS_ASSUME_NONNULL_END

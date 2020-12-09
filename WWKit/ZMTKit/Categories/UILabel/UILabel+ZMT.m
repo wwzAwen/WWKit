@@ -10,7 +10,7 @@
 #import <objc/runtime.h>
 #import <CoreText/CoreText.h>
 #import <Foundation/Foundation.h>
-
+#import "UIView+ZMT.h"
 @interface WWAttributeModel : NSObject
 
 @property (nonatomic, copy) NSString *str;

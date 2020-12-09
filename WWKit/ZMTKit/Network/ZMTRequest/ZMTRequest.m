@@ -7,7 +7,8 @@
 //
 
 #import "ZMTRequest.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
+#import "CommonMacros.h"
 
 @implementation ZMTRequest
 

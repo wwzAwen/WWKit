@@ -317,13 +317,29 @@
     return string;
 }
 
-+ (NSString *)transform:(NSString *)chinese {
-    if (!chinese) return @"";
-    NSMutableString *pinyin = [chinese mutableCopy];
+- (NSString *)pinyin {
+    NSMutableString *pinyin = [self mutableCopy];
     CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformMandarinLatin, NO);
     CFStringTransform((__bridge CFMutableStringRef)pinyin, NULL, kCFStringTransformStripCombiningMarks, NO);
     return [[pinyin stringByReplacingOccurrencesOfString:@" " withString:@""] lowercaseString];
 }
+
+- (NSString *)pinyinInitial {
+    if (self.length == 0) {
+        return nil;
+    }
+    NSMutableString *str = [self mutableCopy];
+    CFStringTransform((CFMutableStringRef)str, NULL, kCFStringTransformMandarinLatin, NO);
+    CFStringTransform((CFMutableStringRef)str, NULL, kCFStringTransformStripDiacritics, NO);
+    
+    NSArray *word = [str componentsSeparatedByString:@" "];
+    NSMutableString *initial = [[NSMutableString alloc] initWithCapacity:str.length / 3];
+    for (NSString *str in word) {
+        [initial appendString:[str substringToIndex:1]];
+    }
+    return initial;
+}
+
 
 @end
 

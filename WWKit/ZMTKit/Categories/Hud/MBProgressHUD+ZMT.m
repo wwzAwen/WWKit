@@ -7,7 +7,9 @@
 //
 
 #import "MBProgressHUD+ZMT.h"
-
+#import "CommonMacros.h"
+#import "UIWindow+ZMT.h"
+#import "UIView+ZMT.h"
 const NSInteger hideTime = 2;
 @implementation MBProgressHUD (ZMT)
 

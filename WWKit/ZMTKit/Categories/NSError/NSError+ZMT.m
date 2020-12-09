@@ -7,7 +7,7 @@
 //
 
 #import "NSError+ZMT.h"
-
+#import "CommonMacros.h"
 @implementation NSError (ZMT)
 
 - (NSString *)errorMsg {

@@ -47,8 +47,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)bankNumToNormalNum;
 /// 随机位数字符串 num - 位数
 + (NSString *)randomStrWithNum:(NSInteger)num;
+/// 转url
++ (NSURL *)toUrl;
 /// 汉字转拼音
-+ (NSString *)transform:(NSString *)chinese;
+- (NSString *)pinyin;
+/// 汉字转首字母
+- (NSString *)pinyinInitial;
 
 /**
  double类型计算

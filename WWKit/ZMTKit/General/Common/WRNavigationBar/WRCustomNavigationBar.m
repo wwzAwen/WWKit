@@ -9,6 +9,7 @@
 
 #import "WRCustomNavigationBar.h"
 #import "sys/utsname.h"
+#import "CommonMacros.h"
 
 #define kWRDefaultTitleSize 18
 #define kWRDefaultTitleColor [UIColor blackColor]

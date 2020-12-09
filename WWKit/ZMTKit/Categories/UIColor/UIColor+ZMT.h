@@ -75,6 +75,21 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIColor *)colorWithRGBValue:(uint)value;
 
 /**
+ *  16进制 转为 UIColor
+ *  @param hex 16进制 0x000000
+ *  @return UIColor
+ */
++ (UIColor *)colorWithHex:(UInt32)hex;
+
+/**
+ *  16进制 转换为 UIColor
+ *  @param hex 16进制 0x000000
+ *  @param opacity 透明度
+ *  @return UIColor
+ */
++ (UIColor *)colorWithHex:(UInt32)hex alpha:(float)opacity;
+
+/**
  *  Convert this color to HSLA
  *
  *  @param hue A float pointer that will be set by this conversion
@@ -103,6 +118,26 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)color:(UIColor *)color_ withAlpha:(float)alpha_;
 
+#pragma mark - <-- 基础色 -->
+@property(nonatomic, class, readonly) UIColor *Blue;
+@property(nonatomic, class, readonly) UIColor *Blue1;
+@property(nonatomic, class, readonly) UIColor *Blue2;
+
+@property(nonatomic, class, readonly) UIColor *Green;
+@property(nonatomic, class, readonly) UIColor *Green1;
+@property(nonatomic, class, readonly) UIColor *Green2;
+
+@property(nonatomic, class, readonly) UIColor *Red;
+@property(nonatomic, class, readonly) UIColor *Red1;
+@property(nonatomic, class, readonly) UIColor *Red2;
+
+@property(nonatomic, class, readonly) UIColor *Orange;
+@property(nonatomic, class, readonly) UIColor *Orange1;
+@property(nonatomic, class, readonly) UIColor *Orange2;
+
+@property(nonatomic, class, readonly) UIColor *Gray;
+@property(nonatomic, class, readonly) UIColor *Gray1;
+@property(nonatomic, class, readonly) UIColor *Gray2;
 @end
 
 NS_ASSUME_NONNULL_END

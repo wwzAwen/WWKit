@@ -9,18 +9,19 @@
 #ifndef ZMTKitAdditions_h
 #define ZMTKitAdditions_h
 
-#import <ZMTKit/UIViewController+ZMT.h>
-#import <ZMTKit/UITextView+ZMT.h>
-#import <ZMTKit/NSString+ZMT.h>
-#import <ZMTKit/UIColor+ZMT.h>
-#import <ZMTKit/UIView+ZMT.h>
-#import <ZMTKit/UIWindow+ZMT.h>
-#import <ZMTKit/MBProgressHUD+ZMT.h>
-#import <ZMTKit/NSError+ZMT.h>
-#import <ZMTKit/NSObject+ZMT.h>
-#import <ZMTKit/NSArray+ZMT.h>
-#import <ZMTKit/NSDictionary+ZMT.h>
-#import <ZMTKit/UILabel+ZMT.h>
-#import <ZMTKit/UIImage+ZMT.h>
-#import <ZMTKit/NSDate+ZMT.h>
+#import <WWKit/UIViewController+ZMT.h>
+#import <WWKit/UITextView+ZMT.h>
+#import <WWKit/NSString+ZMT.h>
+#import <WWKit/UIColor+ZMT.h>
+#import <WWKit/UIView+ZMT.h>
+#import <WWKit/UIWindow+ZMT.h>
+#import <WWKit/MBProgressHUD+ZMT.h>
+#import <WWKit/NSError+ZMT.h>
+#import <WWKit/NSObject+ZMT.h>
+#import <WWKit/NSArray+ZMT.h>
+#import <WWKit/NSDictionary+ZMT.h>
+#import <WWKit/UILabel+ZMT.h>
+#import <WWKit/UIImage+ZMT.h>
+#import <WWKit/NSDate+ZMT.h>
+#import <WWKit/UIBarButtonItem+ZMT.h>
 #endif /* ZMTKitAdditions_h */

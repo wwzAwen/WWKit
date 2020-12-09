@@ -64,4 +64,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+#pragma mark - Tips -
+@interface UIView (TipView)
+@property (nonatomic, strong, readonly) UIView *tt_tipView;
+- (void)showTipView:(UIView *)tipView retryAction:(void (^)(id userData))retryAction;
+- (void)showTipView:(UIView *)tipView userData:(id)userData retryAction:(void (^)(id userData))retryAction;
+- (void)removeTipView;
+@end
+
 NS_ASSUME_NONNULL_END

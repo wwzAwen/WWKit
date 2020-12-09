@@ -324,6 +324,17 @@ void PXForceLoadUIColorPXColor() {}
     return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1.0];
 }
 
++ (UIColor *)colorWithHex:(UInt32)hex {
+    return [UIColor colorWithHex:hex alpha:1.0f];
+}
+
++ (UIColor *)colorWithHex:(UInt32)hex alpha:(float)opacity {
+    float red   = ((float)((hex & 0xFF0000) >> 16))/255.0;
+    float green = ((float)((hex & 0xFF00) >> 8))/255.0;
+    float blue  = ((float)(hex & 0xFF))/255.0;
+    return [UIColor colorWithRed:red green:green blue:blue alpha:opacity];
+}
+
 #pragma mark - Methods
 
 - (BOOL)getHue:(CGFloat *)hue saturation:(CGFloat *)saturation lightness:(CGFloat *)lightness alpha:(CGFloat *)alpha;
@@ -448,17 +459,80 @@ void PXForceLoadUIColorPXColor() {}
 }
 
 + (void)getRGBComponents:(CGFloat [3])components forColor:(UIColor *)color {
-    CGColorSpaceRef rgbColorSpace = CGColorSpaceCreateDeviceRGB();
+    CGColorSpaceRef UIColorFromRGBSpace = CGColorSpaceCreateDeviceRGB();
     unsigned char resultingPixel[4];
-    CGContextRef context = CGBitmapContextCreate(&resultingPixel,1,1,8,4,rgbColorSpace,kCGImageAlphaNoneSkipLast);
+    CGContextRef context = CGBitmapContextCreate(&resultingPixel,1,1,8,4,UIColorFromRGBSpace,kCGImageAlphaNoneSkipLast);
     CGContextSetFillColorWithColor(context, [color CGColor]);
     CGContextFillRect(context, CGRectMake(0, 0, 1, 1));
     CGContextRelease(context);
-    CGColorSpaceRelease(rgbColorSpace);
+    CGColorSpaceRelease(UIColorFromRGBSpace);
     for (int component = 0; component < 3; component++) {
         components[component] = resultingPixel[component] / 255.0f;
     }
 }
 
+#pragma mark - <-- 基础色 -->
++ (UIColor *)Blue {
+    return [UIColor colorWithHex:0x3489FF];
+}
 
++ (UIColor *)Blue1 {
+    return [UIColor colorWithHex:0x90C3FF];
+}
+
++ (UIColor *)Blue2 {
+    return [UIColor colorWithHex:0xE8F2FF];
+}
+
+
++ (UIColor *)Green {
+    return [UIColor colorWithHex:0x58BA2D];
+}
+
++ (UIColor *)Green1 {
+    return [UIColor colorWithHex:0xDAF1CF];
+}
+
++ (UIColor *)Green2 {
+    return [UIColor colorWithHex:0xEDF8E6];
+}
+
+
++ (UIColor *)Orange {
+    return [UIColor colorWithHex:0xDE912F];
+}
+
++ (UIColor *)Orange1 {
+    return [UIColor colorWithHex:0xF8E8CF];
+}
+
++ (UIColor *)Orange2 {
+    return [UIColor colorWithHex:0xFCF4E7];
+}
+
+
++ (UIColor *)Red {
+    return [UIColor colorWithHex:0xF05459];
+}
+
++ (UIColor *)Red1 {
+    return [UIColor colorWithHex:0xFCDADB];
+}
+
++ (UIColor *)Red2 {
+    return [UIColor colorWithHex:0xFDECEC];
+}
+
+
++ (UIColor *)Gray {
+    return [UIColor colorWithHex:0x7E8087];
+}
+
++ (UIColor *)Gray1 {
+    return [UIColor colorWithHex:0xE4E3E6];
+}
+
++ (UIColor *)Gray2 {
+    return [UIColor colorWithHex:0xF1F1F2];
+}
 @end
