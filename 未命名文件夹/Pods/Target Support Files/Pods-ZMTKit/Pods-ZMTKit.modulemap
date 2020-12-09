@@ -1,6 +1,0 @@
-framework module Pods_ZMTKit {
-  umbrella header "Pods-ZMTKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

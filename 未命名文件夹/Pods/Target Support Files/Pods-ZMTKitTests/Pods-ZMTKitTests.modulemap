@@ -1,6 +1,0 @@
-framework module Pods_ZMTKitTests {
-  umbrella header "Pods-ZMTKitTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
