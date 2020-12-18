@@ -45,13 +45,12 @@ DEPENDENCIES:
   - "ZZFLEX/ZZFLEX (from `git@gitee.com:wwzAwen/ZZFLEX.git`)"
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - AFNetworking
     - Masonry
     - MBProgressHUD
     - MJExtension
     - MJRefresh
-  trunk:
     - SDWebImage
 
 EXTERNAL SOURCES:
@@ -68,7 +67,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/tbl00c/XLPhotoBrowser.git
     :tag: 1.2.1
   ZZFLEX:
-    :commit: 8efadee3c5e1a0429744e654afe706218d032799
+    :commit: 67b458eca266d93dc6eff49f45d0b493509032cd
     :git: "git@gitee.com:wwzAwen/ZZFLEX.git"
 
 SPEC CHECKSUMS:

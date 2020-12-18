@@ -47,14 +47,18 @@ ZZFLEX_CHAIN_SegmentedControl_IMPLEMENTATION(selectedSegmentIndex, int);
 
 - (ZZSegmentedControlChainModel * _Nonnull (^)(UIAction * _Nonnull, NSInteger))setAction API_AVAILABLE(ios(14.0)) {
     return ^id (UIAction * _Nonnull action, NSInteger index) {
+#ifdef __IPHONE_14_0
         [(UISegmentedControl *)self.view setAction:action forSegmentAtIndex:index];
+#endif
         return self;
     };
 }
 
 - (ZZSegmentedControlChainModel * _Nonnull (^)(UIAction * _Nonnull, NSInteger, BOOL))insertAction API_AVAILABLE(ios(14.0)) {
     return ^id (UIAction * _Nonnull action, NSInteger index, BOOL animated) {
+#ifdef __IPHONE_14_0
         [(UISegmentedControl *)self.view insertSegmentWithAction:action atIndex:index animated:animated];
+#endif
         return self;
     };
 }
