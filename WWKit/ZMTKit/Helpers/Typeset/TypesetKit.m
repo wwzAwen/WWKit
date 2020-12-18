@@ -8,7 +8,7 @@
 
 #import "TypesetKit.h"
 #import "UIFont+Weight.h"
-
+#import <WWKit/WWKit.h>
 @interface TypesetKit ()
 
 @property (nonatomic, strong) NSMutableArray *attributeRanges;
@@ -62,7 +62,7 @@ NSMutableAttributedString *_TSAttributedString(int size, ...) {
     return ^(NSUInteger hexColor) {
         for (NSValue *value in self.attributeRanges) {
             NSRange range = [value rangeValue];
-            [self.string addAttribute:NSForegroundColorAttributeName value:UIColorFromRGB(hexColor) range:range];
+            [self.string addAttribute:NSForegroundColorAttributeName value:kColorFromRGB(hexColor, 1) range:range];
         }
         return self;
     };
