@@ -8,7 +8,8 @@
 
 #import "TypesetKit.h"
 #import "UIFont+Weight.h"
-#import <WWKit/WWKit.h>
+#import "CommonMacros.h"
+
 @interface TypesetKit ()
 
 @property (nonatomic, strong) NSMutableArray *attributeRanges;

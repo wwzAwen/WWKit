@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "WWKit"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "WWKit."
   spec.description  = "简单易用的APP架构"
   spec.homepage     = "https://github.com/wwzAwen/WWKit"

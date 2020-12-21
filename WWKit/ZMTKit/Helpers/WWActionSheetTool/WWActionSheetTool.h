@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign, readonly) NSInteger destructiveButtonIndex;
 
 /// 点击事件响应block
-@property (nonatomic, copy) void (^clickAction)(NSInteger buttonIndex);
+@property (nonatomic, copy) void (^clickAction)(NSInteger);
 
 - (id)initWithTitle:(NSString *)title
         clickAction:(void (^)(NSInteger buttonIndex))clickAction

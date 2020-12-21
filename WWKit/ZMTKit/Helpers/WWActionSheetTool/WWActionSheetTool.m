@@ -20,7 +20,7 @@
 #define     COLOR_TABLEVIEW_BG          [UIColor colorWithRed:239.0/255.0 green:239.0/255.0 blue:244.0/255.0 alpha:1.0]
 #define     COLOR_SEPERATOR             [UIColor colorWithRed:220.0/255.0 green:220.0/255.0 blue:220.0/255.0 alpha:1.0]
 
-@implementation TLActionSheetItem
+@implementation WWActionSheetItem
 
 @end
 
