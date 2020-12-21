@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   "wardw"=> "ghwangd@163.com"
 }
   spec.source       = { :git => "https://github.com/wwzAwen/WWKit.git", :tag => "#{spec.version}" }
-  spec.source_files  = "ZMTKit/**/*.{h,m,mm}"
+  spec.source_files  = "WWKit/ZMTKit/**/*.{h,m,mm}"
   spec.ios.deployment_target =  '9.0'
   spec.ios.pod_target_xcconfig = { 'PRODUCT_BUNDLE_IDENTIFIER' => 'com.alamofire.WWKit' }
   spec.requires_arc = true
