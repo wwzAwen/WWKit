@@ -14,7 +14,7 @@ target 'WWProject' do
   pod 'MJExtension'
   pod 'Masonry'
   pod 'MBProgressHUD'
-  pod 'WWKit', :path => 'WWKit/'
+  pod 'WWKit', :path => './'
   pod 'XLPhotoBrowser+CoderXL', :git => 'https://github.com/tbl00c/XLPhotoBrowser.git', :tag => '1.2.1'
   pod 'ZZFLEX', :subspecs => ['ZZFLEX', 'DataBindKit'], :git => 'git@gitee.com:wwzAwen/ZZFLEX.git'
 

@@ -1,6 +1,6 @@
 {
   "name": "WWKit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "WWKit.",
   "description": "简单易用的APP架构",
   "homepage": "https://github.com/wwzAwen/WWKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wwzAwen/WWKit.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "source_files": "ZMTKit/**/*.{h,m,mm}",
   "platforms": {

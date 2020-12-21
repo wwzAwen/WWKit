@@ -21,7 +21,7 @@ PODS:
   - SDWebImage (5.10.0):
     - SDWebImage/Core (= 5.10.0)
   - SDWebImage/Core (5.10.0)
-  - WWKit (1.0.0):
+  - WWKit (1.0.1):
     - AFNetworking (~> 3.2.1)
     - Masonry
     - MBProgressHUD
@@ -39,7 +39,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJExtension
   - MJRefresh
-  - WWKit (from `WWKit/`)
+  - WWKit (from `./`)
   - "XLPhotoBrowser+CoderXL (from `https://github.com/tbl00c/XLPhotoBrowser.git`, tag `1.2.1`)"
   - "ZZFLEX/DataBindKit (from `git@gitee.com:wwzAwen/ZZFLEX.git`)"
   - "ZZFLEX/ZZFLEX (from `git@gitee.com:wwzAwen/ZZFLEX.git`)"
@@ -55,7 +55,7 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   WWKit:
-    :path: WWKit/
+    :path: "./"
   "XLPhotoBrowser+CoderXL":
     :git: https://github.com/tbl00c/XLPhotoBrowser.git
     :tag: 1.2.1
@@ -77,10 +77,10 @@ SPEC CHECKSUMS:
   MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
-  WWKit: 47bc9b04b95f8b1c3005c1b5612e747e53d6c012
+  WWKit: 4870367e7dbe82c8fed23be24342e6aac45087d3
   "XLPhotoBrowser+CoderXL": 48f73020942c73ba3c3f44c46f7f2add86a98d00
   ZZFLEX: f93c68dd882568748978c6b48bbb98c9c1310c5b
 
-PODFILE CHECKSUM: e88ad91ab8465761f36754c71d74ff009352c31f
+PODFILE CHECKSUM: a1c55c45f58b0edfa3441b0c766b8e4ecae1da8b
 
 COCOAPODS: 1.9.3

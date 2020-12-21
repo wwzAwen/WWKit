@@ -203,7 +203,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WWKit/WWKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLPhotoBrowser+CoderXL/XLPhotoBrowser_CoderXL.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZZFLEX/ZZFLEX.framework"
 fi
@@ -214,7 +213,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/WWKit/WWKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XLPhotoBrowser+CoderXL/XLPhotoBrowser_CoderXL.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ZZFLEX/ZZFLEX.framework"
 fi
