@@ -19,15 +19,15 @@
 + (void)initialize
 {
     //导航栏主题 title文字属性
-    UINavigationBar *navBar = [UINavigationBar appearance];
+//    UINavigationBar *navBar = [UINavigationBar appearance];
     //导航栏背景图
     //    [navBar setBackgroundImage:[UIImage imageNamed:@"tabBarBj"] forBarMetrics:UIBarMetricsDefault];
-    [navBar setBarTintColor:CNavBgColor];
-    [navBar setTintColor:CNavBgFontColor];
+//    [navBar setBarTintColor:CNavBgColor];
+//    [navBar setTintColor:CNavBgFontColor];
 //    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName :CNavBgFontColor, NSFontAttributeName : [UIFont systemFontOfSize:18]}];
     
-    [navBar setBackgroundImage:[UIImage imageWithColor:CNavBgColor] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
-    [navBar setShadowImage:[UIImage new]];//去掉阴影线
+//    [navBar setBackgroundImage:[UIImage imageWithColor:CNavBgColor] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+//    [navBar setShadowImage:[UIImage new]];//去掉阴影线
 }
 
 - (void)viewDidLoad{
